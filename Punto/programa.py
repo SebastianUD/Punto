@@ -2,16 +2,16 @@ from punto import Punto
 
 class Programa:
     def __init__(self):
-        self.messi=Punto()
-        self.elbicho=Punto()
+        messi=Punto()
+        elbicho=Punto()
 
-        self.messi.x=8
-        self.messi.y=2
+        messi.x=8
+        messi.y=2
 
-        self.elbicho.x=9
-        self.elbicho.y=9
+        elbicho.x=9
+        elbicho.y=9
 
-        self.a=self.elbicho.calcular_distancia(self.messi)
+        self.a=elbicho.calcular_distancia(messi)
 
 runnig=Programa()
 
